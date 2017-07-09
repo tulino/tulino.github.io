@@ -10,6 +10,7 @@ Cybele her ne kadar adını Anadolu tanrıçasından alsa da "Ruby on Rails'e" y
 
     Rails ~> 4.2 'dir.
     
+    
 Eger sistemde kurulu başka rails versiyonu varsa 5.1 gibi
 bu sorun oluşturur.Öncelikle bu versionu kaldırıp
 4.2 versiyonunu yükleyip öyle kurulum aşamasına başlayın
