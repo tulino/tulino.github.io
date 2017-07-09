@@ -9,6 +9,7 @@ Cybele her ne kadar adını Anadolu tanrıçasından alsa da "Ruby on Rails'e" y
     Ruby ~> 2.3
 
     Rails ~> 4.2 'dir.
+    
 Eger sistemde kurulu başka rails versiyonu varsa 5.1 gibi
 bu sorun oluşturur.Öncelikle bu versionu kaldırıp
 4.2 versiyonunu yükleyip öyle kurulum aşamasına başlayın
@@ -42,6 +43,7 @@ anlatıma projenin adını cybele_example olarak devam edicem
     $ cd public
     
     $ ln -s ../VERSION.txt VERSION.txt
+    
  config/databes.yml uzantılı dosyamızı açıyoruz.Görünen development
 kısmı aşağıdaki şekilde olmalı
 
@@ -56,11 +58,13 @@ kısmı aşağıdaki şekilde olmalı
     port: 5432
     username: cybele_example
     password: cybele_example
+    
 Bundan sonraki aşama için sisteminizde Postgresql'in kurulu olduğundan emin olun kurulu değilse kurulumunu yapıp o şekilde ilerleyiniz
 
 Yukardaki databes ismiyle aynı olacak sekilde Postgresql de databes oluşturup username ve pasword tanımlıycaz
 
     $ sudo -u postgres psql 
+    
    postgresql terminalini açıyoruz.
 
     $ CREATE DATABASE ‘cybele_example_development’;
