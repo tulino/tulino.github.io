@@ -84,6 +84,8 @@ Aynı şekilde databes için username ve pasword oluştutuyoruz
   Local de test etmek için
         
         $ rails s
+        
+
 yazarak çalıştırmıs oluyoruz [http://localhost:3000/ ](http://localhost:3000/ ) aderinden projenin çalışır halini görebilirsiniz
 Admin olarak giriş yapmak için [http://localhost:3000/hq ](http://localhost:3000/hq ) adresini kullanın
 
