@@ -42,7 +42,7 @@ Projemiz için bir controller oluşturuyoruz
     $ rails g devise:install
     
   Bu komuttan sonra ekranda gözüken adımları takip etmemiz yeterli
-  ![]([Imgur](http://i.imgur.com/Lr1CqNK.jpg))
+  ![](http://i.imgur.com/Lr1CqNK.jpg)
 config/environments/development.rb dosyasında aşağıdaki satır yoksa ekleyin öncelikle
 
     config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
